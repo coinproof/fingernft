@@ -6,10 +6,8 @@
       :fit="'fill'"
     ></el-image>
     <div class="banner-context main-wrapper">
-      <el-image class="banner-title" :src="require('@/assets/img/home/banner-title.jpg')">
+      <el-image class="banner-title" :src="require('@/assets/img/home/marketplace-title.png')">
       </el-image>
-      <div class="tip">{{ $t('home.tip1')}}</div>
-      <div class="tip">{{ $t('home.tip2') }}</div>
     </div>
   </div>
   <div class="main-wrapper">
@@ -145,7 +143,7 @@ export default {
   mixins: [NftDialog, NftItem, NftInfo],
   data: function () {
     return {
-      banner: require("@/assets/img/home/banner.jpg"),
+      banner: require("@/assets/img/home/background.jpeg"),
       sortKey: "",
       filterId: "",
       filters: [],

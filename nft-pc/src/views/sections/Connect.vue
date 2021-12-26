@@ -1,7 +1,7 @@
 <template>
   <div class="main-wrapper">
     <div class="left-section-wrapper">
-      <el-image class="left-bg" :src="require('@/assets/img/home/connect.jpg')"></el-image>
+      <el-image class="left-bg" :src="require('@/assets/img/home/connect.png')"></el-image>
     </div>
     <div class="connect-wrap">
       <div class="connect-section">
@@ -90,7 +90,7 @@ export default {
   left: 0;
   top: 0;
   bottom: 0;
-  background: url("../../assets/img/home/connect.jpg")
+  background: url("../../assets/img/home/background.jpeg")
     no-repeat 0 0 / 100% 100%;
 }
 .left-logo {

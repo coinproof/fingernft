@@ -6,7 +6,7 @@
           <router-link to="/" class="head-FirstSvg">
             <img fit="contain"
               class="logo-image"
-              :src="require('@/assets/img/logo.jpg')"
+              :src="require('@/assets/img/logo.png')"
             />
           </router-link>
         </div>
