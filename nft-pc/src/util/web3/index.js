@@ -89,6 +89,7 @@ export default {
       return { error: e.message }
     }
   },
+  
   async decodeLog(inputs, hexString, options){
     let web3 = this.getWeb3();
     try {

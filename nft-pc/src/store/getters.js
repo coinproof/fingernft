@@ -15,6 +15,7 @@ export default {
     }
   },
   defaultSalePayToken: (state) => () => {
+    console.log("state",state)
     let paytoken = state.defalutPayToken;
     if(paytoken) return paytoken;
     let paytokens = state.payTokens;

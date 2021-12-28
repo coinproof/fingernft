@@ -1,0 +1,4 @@
+methods for balance == C:\Users\arrna\OneDrive\Documents\GitHub\fingernft\nft-pc\src\store\getters.js
+sdk abi == C:\Users\arrna\OneDrive\Documents\GitHub\fingernft\nft-pc\src\util\sdk
+header == C:\Users\arrna\OneDrive\Documents\GitHub\fingernft\nft-pc\src\views\layout\HeaderTemplate.vue
+finger token address == 0xd36b397202af64bbb651c0fde0472c2d4908439e

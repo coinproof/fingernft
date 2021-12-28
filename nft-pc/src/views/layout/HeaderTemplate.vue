@@ -225,10 +225,12 @@ export default {
     },
     erc20Balance() {
       let paytoken = this.$store.getters.payToken(this.defaultPaytoken.address);
+      
       if (!paytoken) return { balance: 0, usdtBalance: 0 };
       let balance = this.$store.getters.getBalance(
         this.defaultPaytoken.address
       );
+     
       balance = !balance ? 0 : balance;
       let usdtBalance = balance * paytoken.rate;
       return {
